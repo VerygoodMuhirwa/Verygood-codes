@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+h5{
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+    font-size: large;
+    font-weight: bold;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    font-style: italic;
+    
+}
+
+#buildwebapp {
+    margin: auto;
+    width: 450px;
+    height: 36px;
+    border: 2px solid black;
+    border-radius: 7px;
+    text-indent: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+#buildwebapp:focus {
+    border: 2px solid dodgerblue !important;
+}
+
+
+.whattodo {
+    margin-top: 180px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#todos {
+    margin-top: 100px;
+}
+
+#todos h1 {
+    color: #5a5959;
+    text-align: center;
+    font-size: 65px;
+}
+
+
+#todos #items {
+    width: 30%;
+    margin: 10px auto 30px auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#todos #items > .item {
+ display: flex;
+ justify-content: space-between;
+ margin-top: 10px;   
+}
+
+#todos #items > .item span {
+    margin-left: 6px;
+    font-size: 19px;
+}
+
+#todos #items > .item div {
+    display: flex;
+    align-items: center;
+}
+
+#todos #items > .item div i {
+    font-size: 25px;
+    color: #565656;
+}
+
+#todos #items .item > i {
+    background: red;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 50%;
+}
